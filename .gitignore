@@ -1,0 +1,20 @@
+# PyCharm
+.idea/
+*.iml
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Data
+*.log
+*.env

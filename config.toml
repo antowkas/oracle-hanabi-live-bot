@@ -1,0 +1,46 @@
+ws_url = "wss://hanab.live/ws"
+auth_url = "https://hanab.live/login"
+reconnect_delay_base = 2.0
+reconnect_delay_max = 60.0
+
+[[bots]]
+username = "oraclehlb1"
+strategy = "SimpleStrategy"
+
+[[bots]]
+username = "oraclehlb2"
+strategy = "SimpleStrategy"
+
+[[bots]]
+username = "oraclehlb3"
+strategy = "SimpleStrategy"
+
+[[bots]]
+username = "oraclehlb4"
+strategy = "SimpleStrategy"
+
+[[bots]]
+username = "oraclehlb5"
+strategy = "SimpleStrategy"
+
+[[bots]]
+username = "oraclehlb6"
+strategy = "SimpleStrategy"
+
+[[bots]]
+username = "oraclehlb7"
+strategy = "SimpleStrategy"
+
+[[bots]]
+username = "oraclehlb8"
+strategy = "SimpleStrategy"
+
+[[bots]]
+username = "oraclehlb9"
+strategy = "SimpleStrategy"
+
+[[bots]]
+username = "oraclehlb10"
+strategy = "SimpleStrategy"
+# [bots.strategy_options]
+# risk_level = 0.8

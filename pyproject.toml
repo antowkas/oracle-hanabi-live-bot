@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oraclehlb"
+version = "0.1"
+authors = [
+  { name="antowkas", email="antowkas.dev@gmail.com" },
+  { name="chas", email="esten55@gmail.com" },
+]
+description = "A Hanabi bot for 'hanab.live' built to be a much more intelligent and reliable partner for automated play."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file="LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Topic :: Games/Entertainment",
+]
+dependencies = [
+    "websockets>=15.0",
+    "pydantic>=2.0",
+    "pydantic-settings>=2.10.1",
+    "aiohttp>=3.12.15",
+    "toml>=0.10.2",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/antowkas/oracle-hanabi-live-bot"
+"Bug Tracker" = "https://github.com/antowkas/oracle-hanabi-live-bot/issues"
+
+[project.scripts]
+oraclehlb = "oraclehlb.main:main"
