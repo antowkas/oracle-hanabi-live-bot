@@ -18,3 +18,4 @@ build/
 # Data
 *.log
 *.env
+config.toml
